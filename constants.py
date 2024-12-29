@@ -12,6 +12,7 @@ YELLOW = (1.0, 1.0, 0.0)
 PURPLE = (0.5, 0.0, 0.5)
 CYAN = (0.0, 0.8, 0.8)
 ORANGE = (1.0, 0.5, 0.0)
+GREY=(0.5, 0.5, 0.5)
 
 # Player Settings
 PLAYER_COLOR = WHITE
@@ -25,7 +26,7 @@ INITIAL_LIVES = 3
 # Enemy Settings
 ENEMY_TYPES = {
     "QUIZ": {
-        "color": GREEN,
+        "color": GREY,
         "size": 20,
         "speed": 100,
         "hp": 1,
